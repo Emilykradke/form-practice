@@ -1,0 +1,92 @@
+html, body {
+  margin: 0px;
+}
+
+nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  max-width: 1200px;
+  margin: auto;
+  background-color: gray;
+  margin-top: 0px;
+}
+
+nav .logo {
+  font-size: 36px;
+  margin-left: 20px;
+}
+
+nav .nav-links {
+  list-style: none;
+}
+
+nav .nav-links li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+nav .nav-links li a {
+  font-size: 18px;
+  text-decoration: none;
+}
+
+fieldset {
+  border: none;
+  width: 251px;
+  margin: auto;
+}
+
+fieldset .fieldset-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 100%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+fieldset .fieldset-container .block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 250px;
+}
+
+fieldset .fieldset-container .block label {
+  display: block;
+  margin-top: 15px;
+}
+
+fieldset .fieldset-container .block .submit-button {
+  text-decoration: none;
+  border: 1px solid black;
+  width: 100px;
+  text-align: center;
+  margin-top: 20px;
+  padding: 10px;
+  border-radius: 3px;
+  color: black;
+}
+
+.happy-birthday {
+  width: 723px;
+  margin: auto;
+  text-align: center;
+}
+/*# sourceMappingURL=styles.css.map */

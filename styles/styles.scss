@@ -1,0 +1,75 @@
+html, body {
+  margin: 0px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: auto;
+  background-color: gray;
+  margin-top: 0px;
+
+  .logo {
+    font-size: 36px;
+    margin-left: 20px;
+  }
+
+  .nav-links {
+    list-style: none;
+
+    li {
+      display: inline-block;
+      margin-right: 20px;
+
+      a {
+        font-size: 18px;
+        text-decoration: none;
+        
+      }
+    }
+  }
+}
+
+fieldset {
+  border: none;
+  width: 251px;
+  margin: auto;
+
+  .fieldset-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+  
+    .block {
+      display: flex;
+      flex-direction: column;
+      width: 250px;
+  
+      label {
+        display: block;
+        margin-top: 15px;
+      }
+  
+      .submit-button {
+        text-decoration: none;
+        border: 1px solid black;
+        width: 100px;
+        text-align: center;
+        margin-top: 20px;
+        padding: 10px;
+        border-radius: 3px;
+        color: black;
+
+      }
+    }
+  }
+}
+
+.happy-birthday {
+  width: 723px;
+  margin: auto;
+  text-align: center;
+}
