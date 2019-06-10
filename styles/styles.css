@@ -89,4 +89,17 @@ fieldset .fieldset-container .block .submit-button {
   margin: auto;
   text-align: center;
 }
+
+@media all and (max-width: 411px) {
+  .happy-birthday {
+    width: 410px;
+  }
+}
+
+@media all and (max-width: 411px) {
+  .happy-birthday img {
+    height: 230px;
+    width: 400px;
+  }
+}
 /*# sourceMappingURL=styles.css.map */

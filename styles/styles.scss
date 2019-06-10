@@ -72,4 +72,14 @@ fieldset {
   width: 723px;
   margin: auto;
   text-align: center;
+
+  @media all and (max-width: 411px) {
+    width: 410px;
+  }
+  img {
+    @media all and (max-width: 411px) {
+      height: 230px;
+      width: 400px;
+    }
+  }
 }
